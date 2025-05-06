@@ -41,16 +41,16 @@ Settings.llm = Groq(model="llama-3.3-70b-versatile", api_key=userdata.get('GROQ_
 ```
 
 # 🧰 Tools Implemented
-**1. `get_order_items(order_id)`**
+1. `get_order_items(order_id)`
 Returns the list of items in a given order.
 
-**2. `get_delivery_date(order_id)`**
+2. `get_delivery_date(order_id)`
 Returns the delivery date for a given order.
 
-**3. `get_item_return_days(item)`**
+3. `get_item_return_days(item)`
 Returns the return period (in days) for a given item.
 
-**4. `support_tool`**
+4. `support_tool`
 A vector-based query tool built on customer service documentation using `SimpleDirectoryReader` and `VectorStoreIndex`.
 
 # ⚙️ Agent Configuration
