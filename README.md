@@ -81,7 +81,7 @@ agent.query("When is the delivery date and items shipped for order 1003 and how 
 agent.query("What is the return policy for order number 1004")
 ```
 
-## 📜 License
+# 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
 
 
